@@ -116,3 +116,28 @@ else:
         arr2.append(1)
         line2 = get_line(arr2)
         print(line2)
+
+
+"""
+n = int(input())
+
+a = [7, 5, 3, 2]
+ans = []
+for index in range(4):
+    if n % a[index] == 0:
+        ans.append(a[index])
+        n //= a[index]
+        index -= 1
+
+if ans.count(7) > 1:
+    print(-1)
+elif ans.count(5) > 1:
+    print(-1)
+elif ans.count(3) > 4:
+    print(-1)
+elif ans.count(2) > 7:
+    print(-1)
+else:
+    pass
+
+"""
