@@ -31,3 +31,6 @@ def binary_search(n, arr):
 
 
 print(arr[binary_search(n, arr)])
+
+
+
