@@ -24,7 +24,7 @@ def binary_search(n, arr):
         elif get_anser(arr[center]) > n:
             upper_bound = center - 1
 
-        elif get_anser(arr[center]) > n:
+        elif get_anser(arr[center]) < n:
             lower_bound = center + 1
 
     return -1
